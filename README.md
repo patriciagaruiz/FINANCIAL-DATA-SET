@@ -29,8 +29,17 @@ he bank offers services to the private sector. The services include managing acc
 ![Image2](https://user-images.githubusercontent.com/99502330/162428029-872af08f-f8b0-45c5-b9b9-94fe11b07ab5.jpg)
 
 
-Identify the good clients to whom we can other services.
-Identify the bad clients that have to watch carefully to minimize the losses.
+<h2 align="left"> Identify the bad clients that have to watch carefully to minimize the losses </h2>
+
+First of all, I check accounts with loan not payed. 
+It is good when the bank has a client paying tax for using services but it is a bad signal when a client can not afford for them.
+
+
+
+<h2 align="left"> Identify the good clients to whom we can other services </h2>
+
+.
+.
 What percentage of accounts have more than one client accessing the account? The disposition table, type column.
 How much of the cards’ information is available in this database, and what are the different kinds of cards offered by the bank?
 Where are most of the customers located (district)?
