@@ -20,7 +20,7 @@ The data provided is real anonymized Czech bank transactions, account info, and 
 
 <h1 align="left"> Scenario </h1>
 
-he bank offers services to the private sector. The services include managing accounts, offering loans, etc.
+The bank offers services to the private sector. The services include managing accounts, offering loans, etc.
 
 
 
@@ -32,7 +32,17 @@ he bank offers services to the private sector. The services include managing acc
 <h2 align="left"> Identify the bad clients that have to watch carefully to minimize the losses </h2>
 
 First of all, I check accounts with loan not payed. 
-It is good when the bank has a client paying tax for using services but it is a bad signal when a client can not afford for them.
+
+It is good when the bank has clients paying tax for using services but it is a bad signal when clients can not afford for them.
+
+There are 31 loans not payed: € 4.362.348.
+
+These loans are related to 31 distinct accounts.
+
+Fortunatelly there is no golden credit card for theses accounts (credit card service tax is higher than loan). There are only 2 credit cards associate to these bad accounts: 1 classic and 1 junior.
+
+
+
 
 
 
