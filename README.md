@@ -1,25 +1,42 @@
 # Repository-GIT---Ironhack
 Repository GIT 
-<h1 align="center"> SHARK ATTACK </h1>
-<h1 align="center"> Data Cleaning and Manipulation </h1>
+<h1 align="center"> FINANCIAL DATA SET </h1>
+
+![Image1](https://user-images.githubusercontent.com/99502330/162427935-e6ee1c11-9598-4468-a260-2f4fe35b32c6.jpg)
+
+
+<h1 align="left"> Objectives </h1>
+
+The bank stores information about the clients, including accounts held, transactions over the last few months, loans granted, cards issued, etc. 
+The bank managers hope to improve their understanding of customers and seek specific actions to improve services.
+
+
+![Image8](https://user-images.githubusercontent.com/99502330/162427411-4151cfd3-bb82-499d-8ab9-f4781704c8c3.jpg)
+
+<h1 align="left"> Dataset </h1>
+
+The data provided is real anonymized Czech bank transactions, account info, and loan records released for the PKDD'99 Discovery Challenge.
+
+
+<h1 align="left"> Scenario </h1>
+
+he bank offers services to the private sector. The services include managing accounts, offering loans, etc.
 
 
 
+<h1 align="left"> Tasks </h1>
 
-![ec108e76abc8ba235183e1043243f8c7](https://user-images.githubusercontent.com/99502330/161838073-aa87e39a-1afc-4459-9d06-b6a556085659.jpg)
+![Image2](https://user-images.githubusercontent.com/99502330/162428029-872af08f-f8b0-45c5-b9b9-94fe11b07ab5.jpg)
 
 
-<h1 align="left"> Main Objectives </h1>
+Identify the good clients to whom we can other services.
+Identify the bad clients that have to watch carefully to minimize the losses.
+What percentage of accounts have more than one client accessing the account? The disposition table, type column.
+How much of the cards’ information is available in this database, and what are the different kinds of cards offered by the bank?
+Where are most of the customers located (district)?
 
-Apply the different cleaning and manipulation techniques to generate a cleaner CSV version of this data.
-Look for something you want to answer about shark attacks and try to answer that using data.
 
 ![Humans are friends!](https://user-images.githubusercontent.com/99502330/161834340-92521684-877f-495d-8df9-ec22bfacb2fc.jpg)
-
-<h1 align="left"> The Datasets </h1>
-
-The mission of the Global Shark Attack File is to provide current and historical data on shark/human interactions for those who seek accurate and meaningful information and verifiable references.
-Dataset available at: https://www.kaggle.com/datasets/teajay/global-shark-attacks.
 
 
 <h1 align="left"> Import File </h1>
