@@ -22,6 +22,7 @@ The data provided is real anonymized Czech bank transactions, account info, and 
 
 The bank offers services to the private sector. The services include managing accounts, offering loans, etc.
 
+There is no information about: account balance, revenue and properties. This analysys was made 
 
 
 <h1 align="left"> Tasks </h1>
@@ -30,6 +31,7 @@ The bank offers services to the private sector. The services include managing ac
 
 
 <h2 align="left"> Identify the bad clients that have to watch carefully to minimize the losses </h2>
+
 
 First of all, I check accounts with loan not payed. 
 
