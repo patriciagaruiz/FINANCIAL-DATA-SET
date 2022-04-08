@@ -1,0 +1,89 @@
+ACCOUNT_ID,CREDIT_CARD,TYPE_CCARD,CLIENT_ID,TYPE_DISPOSITION,DISTRICT_ID,REGION,DISTRICT_NAME,AVG_SALARY
+5891,874,gold,7127,OWNER,3,"central Bohemia",Beroun,8980
+2796,531,gold,3378,OWNER,5,"central Bohemia",Kolin,9307
+1154,230,gold,1388,OWNER,5,"central Bohemia",Kolin,9307
+2242,431,gold,2715,OWNER,7,"central Bohemia",Melnik,9920
+3260,617,gold,3944,OWNER,8,"central Bohemia","Mlada Boleslav",11277
+1519,292,gold,1842,OWNER,9,"central Bohemia",Nymburk,8899
+1408,268,gold,1707,OWNER,10,"central Bohemia","Praha - vychod",10124
+2824,538,gold,3414,OWNER,11,"central Bohemia","Praha - zapad",9622
+6363,906,gold,7683,OWNER,12,"central Bohemia",Pribram,8754
+1963,371,gold,2388,OWNER,42,"east Bohemia","Havlickuv Brod",8388
+2410,453,gold,2911,OWNER,45,"east Bohemia",Jicin,8390
+6030,884,gold,7286,OWNER,47,"east Bohemia",Pardubice,9538
+3654,678,gold,4405,OWNER,47,"east Bohemia",Pardubice,9538
+2450,459,gold,2958,OWNER,48,"east Bohemia","Rychnov nad Kneznou",9060
+456,99,gold,548,OWNER,49,"east Bohemia",Semily,8208
+468,100,gold,562,OWNER,49,"east Bohemia",Semily,8208
+1867,354,gold,2265,OWNER,52,"east Bohemia","Usti nad Orlici",8363
+7859,1009,gold,9717,OWNER,52,"east Bohemia","Usti nad Orlici",8363
+738,153,gold,886,OWNER,34,"north Bohemia",Chomutov,9675
+4949,819,gold,5978,OWNER,33,"north Bohemia",Decin,8705
+1779,341,gold,2156,OWNER,33,"north Bohemia",Decin,8705
+2966,561,gold,3581,OWNER,33,"north Bohemia",Decin,8705
+3781,706,gold,4559,OWNER,35,"north Bohemia","Jablonec n. Nisou",8867
+2328,444,gold,2815,OWNER,35,"north Bohemia","Jablonec n. Nisou",8867
+1495,286,gold,1812,OWNER,36,"north Bohemia",Liberec,9198
+1485,282,gold,1799,OWNER,36,"north Bohemia",Liberec,9198
+1273,253,gold,1536,OWNER,37,"north Bohemia",Litomerice,9065
+68,11,gold,79,OWNER,37,"north Bohemia",Litomerice,9065
+940,186,gold,1133,OWNER,37,"north Bohemia",Litomerice,9065
+1592,307,gold,1930,OWNER,38,"north Bohemia",Louny,8965
+2466,461,gold,2977,OWNER,39,"north Bohemia",Most,10446
+10411,1176,gold,12810,OWNER,39,"north Bohemia",Most,10446
+1016,200,gold,1220,OWNER,40,"north Bohemia",Teplice,9317
+3163,599,gold,3824,OWNER,41,"north Bohemia","Usti nad Labem",9832
+3749,698,gold,4522,OWNER,68,"north Moravia","Frydek - Mistek",9893
+1466,277,gold,1777,OWNER,69,"north Moravia",Jesenik,8173
+2592,486,gold,3128,OWNER,69,"north Moravia",Jesenik,8173
+4361,775,gold,5253,OWNER,69,"north Moravia",Jesenik,8173
+4255,761,gold,5128,OWNER,70,"north Moravia",Karvina,10177
+9203,1095,gold,11331,OWNER,70,"north Moravia",Karvina,10177
+3035,575,gold,3667,OWNER,70,"north Moravia",Karvina,10177
+1039,208,gold,1246,OWNER,70,"north Moravia",Karvina,10177
+2695,509,gold,3253,OWNER,70,"north Moravia",Karvina,10177
+1753,331,gold,2125,OWNER,71,"north Moravia","Novy Jicin",8678
+1203,238,gold,1452,OWNER,72,"north Moravia",Olomouc,8994
+2547,475,gold,3075,OWNER,74,"north Moravia","Ostrava - mesto",10673
+3391,638,gold,4100,OWNER,74,"north Moravia","Ostrava - mesto",10673
+1417,269,gold,1718,OWNER,75,"north Moravia",Prerov,8819
+2444,458,gold,2951,OWNER,76,"north Moravia",Sumperk,8369
+1695,321,gold,2058,OWNER,76,"north Moravia",Sumperk,8369
+10650,1195,gold,13095,OWNER,76,"north Moravia",Sumperk,8369
+2332,445,gold,2820,OWNER,77,"north Moravia",Vsetin,8909
+978,193,gold,1179,OWNER,1,Prague,"Hl.m. Praha",12541
+1494,285,gold,1811,OWNER,1,Prague,"Hl.m. Praha",12541
+2854,544,gold,3448,OWNER,1,Prague,"Hl.m. Praha",12541
+886,182,gold,1067,OWNER,1,Prague,"Hl.m. Praha",12541
+1547,296,gold,1876,OWNER,1,Prague,"Hl.m. Praha",12541
+2598,488,gold,3134,OWNER,1,Prague,"Hl.m. Praha",12541
+2600,490,gold,3136,OWNER,1,Prague,"Hl.m. Praha",12541
+904,184,gold,1089,OWNER,1,Prague,"Hl.m. Praha",12541
+3103,585,gold,3753,OWNER,1,Prague,"Hl.m. Praha",12541
+3776,704,gold,4553,OWNER,1,Prague,"Hl.m. Praha",12541
+1750,329,gold,2122,OWNER,1,Prague,"Hl.m. Praha",12541
+4034,743,gold,4862,OWNER,1,Prague,"Hl.m. Praha",12541
+8856,1076,gold,10912,OWNER,15,"south Bohemia","Cesky Krumlov",9045
+2726,518,gold,3292,OWNER,18,"south Bohemia",Pisek,8968
+2982,565,gold,3601,OWNER,19,"south Bohemia",Prachatice,8402
+1378,263,gold,1668,OWNER,20,"south Bohemia",Strakonice,8547
+2013,382,gold,2445,OWNER,54,"south Moravia","Brno - mesto",9897
+10520,1187,gold,12943,OWNER,55,"south Moravia","Brno - venkov",8743
+1074,213,gold,1289,OWNER,59,"south Moravia",Kromeriz,8444
+1910,362,gold,2320,OWNER,60,"south Moravia",Prostejov,8441
+7,1,gold,9,OWNER,60,"south Moravia",Prostejov,8441
+2219,427,gold,2688,OWNER,60,"south Moravia",Prostejov,8441
+776,158,gold,928,OWNER,66,"south Moravia","Zdar nad Sazavou",8512
+10439,1177,gold,12843,OWNER,66,"south Moravia","Zdar nad Sazavou",8512
+2051,389,gold,2489,OWNER,64,"south Moravia",Zlin,9624
+9814,1137,gold,12079,OWNER,64,"south Moravia",Zlin,9624
+7795,1007,gold,9641,OWNER,64,"south Moravia",Zlin,9624
+33,3,gold,41,OWNER,22,"west Bohemia",Domazlice,8620
+3899,724,gold,4701,OWNER,22,"west Bohemia",Domazlice,8620
+270,52,gold,326,OWNER,27,"west Bohemia","Plzen - jih",8561
+1305,255,gold,1579,OWNER,27,"west Bohemia","Plzen - jih",8561
+2681,506,gold,3236,OWNER,28,"west Bohemia","Plzen - sever",8594
+1345,261,gold,1629,OWNER,28,"west Bohemia","Plzen - sever",8594
+1204,239,gold,1453,OWNER,29,"west Bohemia",Rokycany,8843
+577,125,gold,694,OWNER,29,"west Bohemia",Rokycany,8843
+2867,546,gold,3465,OWNER,30,"west Bohemia",Sokolov,9650
