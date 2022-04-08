@@ -22,7 +22,8 @@ The data provided is real anonymized Czech bank transactions, account info, and 
 
 The bank offers services to the private sector. The services include managing accounts, offering loans, etc.
 
-There is no information about: account balance, revenue and properties. This analysys was made 
+
+Warning: There is no information about account balance, revenue and assets. 
 
 
 <h1 align="left"> Tasks </h1>
@@ -30,7 +31,7 @@ There is no information about: account balance, revenue and properties. This ana
 ![Image2](https://user-images.githubusercontent.com/99502330/162428029-872af08f-f8b0-45c5-b9b9-94fe11b07ab5.jpg)
 
 
-<h2 align="left"> Identify the bad clients that have to watch carefully to minimize the losses </h2>
+<h1 align="left"> Identify the bad clients that have to watch carefully to minimize the losses </h1>
 
 
 First of all, I check accounts with loan not payed. 
@@ -43,9 +44,13 @@ These loans are related to 31 distinct accounts.
 
 Fortunatelly there is no golden credit card for theses accounts (credit card service tax is higher than loan). There are only 2 credit cards associate to these bad accounts: 1 classic and 1 junior.
 
+The district average salary could be considerated to set loan maximum payment. It is a safe condition calculate the loan payment under 60% the district average salary. There are 11 loans not payed (€ ) and ?? loans with client in debt in this situation . 
 
+<h2 align="left"> Actions to minimize the losses </h2>
 
+1. Don't offer golden credic card. Find out safety limit for ordinary credit card.
 
+2. Set maximum payment to loan based on average salary 
 
 
 <h2 align="left"> Identify the good clients to whom we can other services </h2>
