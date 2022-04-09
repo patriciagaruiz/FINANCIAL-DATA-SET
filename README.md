@@ -28,11 +28,11 @@ Warning: There is no information about account balance, revenue, investments and
 
 <h1 align="left"> Tasks </h1>
 
-![Image2](https://user-images.githubusercontent.com/99502330/162428029-872af08f-f8b0-45c5-b9b9-94fe11b07ab5.jpg)
+
+<h1 align="left"> 1. Identify the bad clients that have to watch carefully to minimize the losses </h1>
 
 
-<h1 align="left"> Identify the bad clients that have to watch carefully to minimize the losses </h1>
-
+![Image7](https://user-images.githubusercontent.com/99502330/162592623-00aee595-7327-4ebe-95cc-06fbc13c6d6d.jpg)
 
 First of all, I check accounts with loan not payed. 
 
@@ -51,7 +51,13 @@ Fortunatelly there is no golden credit card for theses accounts (credit card ser
 
 The district average salary could be considerated to set loan maximum payment. It is a safe condition calculate the loan payment under 60% the district average salary. There are 11 loans not payed in this situation . 
 
+![Graf6](https://user-images.githubusercontent.com/99502330/162593673-5245936a-9012-4703-bac2-bf8c9b3084a2.png)
+
+
 <h2 align="left"> Actions to minimize the losses </h2>
+
+
+![Image9](https://user-images.githubusercontent.com/99502330/162592673-efcc9feb-6a56-4a7f-ac21-4eab35bce3b2.jpg)
 
 1. Don't offer golden credic card to bad clients. Find out safety limit for ordinary credit card.
 
@@ -60,7 +66,10 @@ The district average salary could be considerated to set loan maximum payment. I
 3. Control bad customers and offer services carefully
 
 
-<h1 align="left"> Identify the good clients to whom we can other services </h1>
+<h1 align="left"> 2. Identify the good clients to whom we can other services </h1>
+
+Good clients have golden credit card.
+
 
 
 
