@@ -23,7 +23,7 @@ The data provided is real anonymized Czech bank transactions, account info, and 
 The bank offers services to the private sector. The services include managing accounts, offering loans, etc.
 
 
-Warning: There is no information about account balance, revenue and assets. 
+Warning: There is no information about account balance, revenue, investments and assets. 
 
 
 <h1 align="left"> Tasks </h1>
@@ -40,9 +40,12 @@ It is good when the bank has clients paying tax for using services but it is a b
 
 There are 31 loans not payed: € 4,362,348. It is 19% of € 22,965,564 (total loan with closed contracts).
 
-At the present time, there are 11,217,804 loans with clients in debt. It is 13.97% of 80,296,176 (total loan running)
+![Graf5](https://user-images.githubusercontent.com/99502330/162592539-93636263-985f-4f01-9851-9e680e9c9f9d.png)
+
 
 These loans are related to 31 distinct accounts (0,69% of 4,500 accounts) and refers to 31 distinct clients (0,58% of 5,369 clients).
+
+At the present time, there are 11,217,804 loans with clients in debt. It is 13.97% of 80,296,176 (total loan running)
 
 Fortunatelly there is no golden credit card for theses accounts (credit card service tax is higher than loan). There are only 2 credit cards associate to these bad accounts: 1 classic and 1 junior.
 
@@ -57,10 +60,11 @@ The district average salary could be considerated to set loan maximum payment. I
 3. Control bad customers and offer services carefully
 
 
-<h2 align="left"> Identify the good clients to whom we can other services </h2>
+<h1 align="left"> Identify the good clients to whom we can other services </h1>
 
-.
-.
+
+
+
 What percentage of accounts have more than one client accessing the account? The disposition table, type column.
 How much of the cards’ information is available in this database, and what are the different kinds of cards offered by the bank?
 Where are most of the customers located (district)?
