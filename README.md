@@ -23,33 +23,33 @@ The data provided is real anonymized Czech bank transactions, account info, and 
 The bank offers services to the private sector. The services include managing accounts, offering loans, etc.
 
 
-Warning: There is no information about account balance, revenue, investments and assets. 
+Warning: There is no information about clients' incomes, investments and assets. 
 
 
 <h1 align="left"> Tasks </h1>
 
 
-<h1 align="left"> 1. Identify the bad clients that have to watch carefully to minimize the losses </h1>
+<h1 align="left"> 1. Identify the bad clients, watching them carefully in order to minimize the losses </h1>
 
 
 ![Image7](https://user-images.githubusercontent.com/99502330/162592623-00aee595-7327-4ebe-95cc-06fbc13c6d6d.jpg)
 
-First of all, I check accounts with loan not payed. 
+First of all, I have checked accounts with non payed loan. 
 
-It is good when the bank has clients paying tax for using services but it is a bad signal when clients can not afford for them.
+It is good when the bank has clients paying tax for using services but it is a bad signal when clients can not afford paying them.
 
-There are 31 loans not payed: € 4,362,348. It is 19% of € 22,965,564 (total loan with closed contracts).
+There are 31 loans that were not payed: € 4,362,348. It is 19% of € 22,965,564 (total loan with expired contracts).
 
 ![Graf5](https://user-images.githubusercontent.com/99502330/162592539-93636263-985f-4f01-9851-9e680e9c9f9d.png)
 
 
-These loans are related to 31 distinct accounts (0,69% of 4,500 accounts) and refers to 31 distinct clients (0,58% of 5,369 clients).
+These loans are related to 31 distinct accounts (0,69% of 4,500 accounts) and reffers to 31 distinct clients (0,58% of 5,369 clients).
 
-At the present time, there are 11,217,804 loans with clients in debt. It is 13.97% of 80,296,176 (total loan running)
+As of now, there are 11,217,804 loans with clients in debt. It is 13.97% of 80,296,176 (total valid loan).
 
-Fortunatelly there is no golden credit card for theses accounts (credit card service tax is higher than loan). There are only 2 credit cards associate to these bad accounts: 1 classic and 1 junior.
+Fortunately there is no golden credit card for theses accounts (credit card service tax is higher than loan). There are only 2 credit cards associate to these bad accounts: 1 classic and 1 junior.
 
-The district average salary could be considerated to set loan maximum payment. It is a safe condition calculate the loan payment under 60% the district average salary. There are 11 loans not payed in this situation . 
+The average district salary could be considered as a reference to determine the loan payments. A conservative approach it would be considering maximum of 50% of the average district salary to define the loan payment. There are 11 loans not payed in this situation . 
 
 ![Graf6](https://user-images.githubusercontent.com/99502330/162593673-5245936a-9012-4703-bac2-bf8c9b3084a2.png)
 
