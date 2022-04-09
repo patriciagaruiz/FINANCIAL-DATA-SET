@@ -68,11 +68,20 @@ The district average salary could be considerated to set loan maximum payment. I
 
 <h1 align="left"> 2. Identify the good clients to whom we can other services </h1>
 
-Good clients have golden credit card.
+Good clients have golden credit card. There are 88 clients in this group.
+
+
+![Graf7](https://user-images.githubusercontent.com/99502330/162594186-8a9f6fdb-73ff-4c78-a98c-e5872ab9c835.png)
 
 
 
+<h2 align="left"> Actions to maximize profit </h2>
 
+1. Identify potencial clients to offer credit card. 
+    Actually there are only 892 credits card associated to clients but there are 5,369 clients in database.
+    
+    
+2. 
 
 What percentage of accounts have more than one client accessing the account? The disposition table, type column.
 How much of the cards’ information is available in this database, and what are the different kinds of cards offered by the bank?
