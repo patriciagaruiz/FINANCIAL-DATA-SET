@@ -59,6 +59,7 @@ Transaction database stores balance after transaction. I used this information t
 
 I split accounts based on different amount ranges: LOW_SCORE (negative balance), REGULAR (up to € 40.000), GOOD (up to € 80,000) and VIP (above € 80,000).
 
+![Graf9](https://user-images.githubusercontent.com/99502330/162641794-4d414f96-bbdd-4106-abc9-c88919063067.png)
 
 
 <h2 align="left"> Actions to minimize the losses </h2>
