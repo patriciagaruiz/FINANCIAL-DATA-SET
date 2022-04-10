@@ -49,9 +49,10 @@ As of now, there are 11,217,804 loans with clients in debt. It is 13.97% of 80,2
 
 Fortunately there is no golden credit card for theses accounts (credit card service tax is higher than loan). There are only 2 credit cards associate to these bad accounts: 1 classic and 1 junior.
 
-The average district salary could be considered as a reference to determine the loan payments. A conservative approach it would be considering maximum of 50% of the average district salary to define the loan payment. There are 11 loans not payed in this situation . 
+![Graf8](https://user-images.githubusercontent.com/99502330/162595684-34a2297a-8204-4cc3-9e91-03db6425483f.png)
 
-![Graf6](https://user-images.githubusercontent.com/99502330/162593673-5245936a-9012-4703-bac2-bf8c9b3084a2.png)
+
+The average district salary could be considered as a reference to determine the loan payments. A conservative approach it would be considering maximum of 50% of the average district salary to define the loan payment. There are 18 loans that were not payed which the payment amount it is over 50% of the average district salary. 
 
 
 <h2 align="left"> Actions to minimize the losses </h2>
@@ -59,14 +60,14 @@ The average district salary could be considered as a reference to determine the 
 
 ![Image9](https://user-images.githubusercontent.com/99502330/162592673-efcc9feb-6a56-4a7f-ac21-4eab35bce3b2.jpg)
 
-1. Don't offer golden credic card to bad clients. Find out safety limit for ordinary credit card.
+1. Don't offer golden credic card to bad clients. Find out safe limit for ordinary credit card.
 
-2. Set maximum payment to loan based on average salary
+2. Define maximum payment to loan based on average district salary.
 
-3. Control bad customers and offer services carefully
+3. Monitor bad customers and offer services carefully.
 
 
-<h1 align="left"> 2. Identify the good clients to whom we can other services </h1>
+<h1 align="left"> 2. Identify the good clients to whom we can offer other services </h1>
 
 Good clients have golden credit card. There are 88 clients in this group.
 
@@ -78,7 +79,8 @@ Good clients have golden credit card. There are 88 clients in this group.
 <h2 align="left"> Actions to maximize profit </h2>
 
 1. Identify potencial clients to offer credit card. 
-    Actually there are only 892 credits card associated to clients but there are 5,369 clients in database.
+
+    Currently there are only 892 credits card associated to clients but there are 5,369 clients in database.
     
     
 2. 
@@ -87,11 +89,4 @@ What percentage of accounts have more than one client accessing the account? The
 How much of the cards’ information is available in this database, and what are the different kinds of cards offered by the bank?
 Where are most of the customers located (district)?
 
-
-
-<h1 align="left"> Import File </h1>
-
-The dataset has 25.723 lines and 24 columns.
-
-Cleanned Dataset has 6.302 lines and 23 columns.
 
