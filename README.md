@@ -90,7 +90,7 @@ There are 2,343 REGULAR accounts with 345 credit cards: 32 'gold', 259 'classic'
 
 <h2 align="left"> Actions to maximize profit </h2>
 
-1. Offer golden credic card to VIP clients.
+1. Offer golden credic card to VIP clients. There is a big opportunity since less then 13.10 % of theses clients have credit card. And 89.23% of these cards are 'junior' or 'classic', so the bank could offer an upgrade for gold credit card.
 
 1. Identify potencial clients to offer credit card. 
 
