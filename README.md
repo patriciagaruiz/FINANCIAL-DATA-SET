@@ -71,7 +71,7 @@ The average district salary could be considered as a reference to determine the 
 
 Transaction database stores balance after transaction. I used this information to discover account balance (max(date) by account).
 
-I split accounts based on different amount ranges: REGULAR (up to € 40.000), GOOD (up to € 80,000) and VIP (above € 80,000).
+I split accounts based on different amount ranges: LOW_SCORE (negative balance), REGULAR (up to € 40.000), GOOD (up to € 80,000) and VIP (above € 80,000).
 
 The bank has 892 credit cards: 659 (classic), 145 (junior) and 88 (gold).
 
