@@ -45,7 +45,7 @@ There are 31 loans that were not payed: € 4,362,348. It is 19% of € 22,965,5
 
 These loans are related to 31 distinct accounts (0,69% of 4,500 accounts) and reffers to 31 distinct clients (0,58% of 5,369 clients).
 
-As of now, there are 11,217,804 loans with clients in debt. It is 13.97% of 80,296,176 (total valid loan).
+As of now, there are € 11,217,804 loans with clients in debt. It is 13.97% of € 80,296,176 (total valid loan).
 
 Fortunately there is no golden credit card for theses accounts (credit card service tax is higher than loan). There are only 2 credit cards associate to these bad accounts: 1 classic and 1 junior.
 
@@ -69,6 +69,18 @@ The average district salary could be considered as a reference to determine the 
 
 <h1 align="left"> 2. Identify the good clients to whom we can offer other services </h1>
 
+Transaction database stores balance after transaction. I used this information to discover account balance (max(date) by account).
+
+I split accounts based on different amount ranges: REGULAR (up to € 40.000), GOOD (up to € 80,000) and VIP (above € 80,000).
+
+The bank has 892 credit cards: 659 (classic), 145 (junior) and 88 (gold).
+
+There are 496 VIP accounts with only 65 credit cards: 7 'gold', 47 'classic' and 11 'junior'.
+
+There are 1,662 GOOD accounts with 220 credit cards: 26 'gold', 167 'classic' and 27 'junior'.
+
+There are 2,343 REGULAR accounts with 
+
 Good clients have golden credit card. There are 88 clients in this group.
 
 
@@ -77,6 +89,8 @@ Good clients have golden credit card. There are 88 clients in this group.
 
 
 <h2 align="left"> Actions to maximize profit </h2>
+
+1. Offer golden credic card to VIP clients.
 
 1. Identify potencial clients to offer credit card. 
 
