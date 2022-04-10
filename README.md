@@ -79,9 +79,9 @@ There are 496 VIP accounts with only 65 credit cards: 7 'gold', 47 'classic' and
 
 There are 1,662 GOOD accounts with 220 credit cards: 26 'gold', 167 'classic' and 27 'junior'.
 
-There are 2,343 REGULAR accounts with 
+There are 2,343 REGULAR accounts with 345 credit cards: 32 'gold', 259 'classic' and 54 'junior'
 
-Good clients have golden credit card. There are 88 clients in this group.
+
 
 
 ![Graf7](https://user-images.githubusercontent.com/99502330/162594186-8a9f6fdb-73ff-4c78-a98c-e5872ab9c835.png)
