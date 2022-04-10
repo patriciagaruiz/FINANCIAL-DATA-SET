@@ -52,7 +52,13 @@ Fortunately there is no golden credit card for theses accounts (credit card serv
 ![Graf8](https://user-images.githubusercontent.com/99502330/162595684-34a2297a-8204-4cc3-9e91-03db6425483f.png)
 
 
+
 The average district salary could be considered as a reference to determine the loan payments. A conservative approach it would be considering maximum of 50% of the average district salary to define the loan payment. There are 18 loans that were not payed which the payment amount it is over 50% of the average district salary. 
+
+Transaction database stores balance after transaction. I used this information to discover account balance (max(date) by account).
+
+I split accounts based on different amount ranges: LOW_SCORE (negative balance), REGULAR (up to € 40.000), GOOD (up to € 80,000) and VIP (above € 80,000).
+
 
 
 <h2 align="left"> Actions to minimize the losses </h2>
@@ -69,9 +75,6 @@ The average district salary could be considered as a reference to determine the 
 
 <h1 align="left"> 2. Identify the good clients to whom we can offer other services </h1>
 
-Transaction database stores balance after transaction. I used this information to discover account balance (max(date) by account).
-
-I split accounts based on different amount ranges: LOW_SCORE (negative balance), REGULAR (up to € 40.000), GOOD (up to € 80,000) and VIP (above € 80,000).
 
 The bank has 892 credit cards: 659 (classic), 145 (junior) and 88 (gold).
 
