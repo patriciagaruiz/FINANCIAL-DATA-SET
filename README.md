@@ -106,10 +106,13 @@ There are 39 LOW SCORE accounts with 6 credit cards: 5 'classic' and 1 'junior'.
 4. There are 32 gold credit card related to regular clients. Check if it is necessary a downgrade for 'junior' or 'classic' credit card.
 
 
-
+<h1 align="left"> Others questions </h1>
 
 What percentage of accounts have more than one client accessing the account? The disposition table, type column.
 How much of the cards’ information is available in this database, and what are the different kinds of cards offered by the bank?
+
 Where are most of the customers located (district)?
 
-
+1st. Hl.m. Praha	- 663 accounts
+2nd. Ostrava - mesto	- 180 accounts
+3rd. Karvina	- 169 accounts
