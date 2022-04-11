@@ -91,6 +91,7 @@ There are 2,305 REGULAR accounts with 337 credit cards: 32 'gold', 253 'classic'
 
 There are 39 LOW SCORE accounts with 6 credit cards: 5 'classic' and 1 'junior'.
 
+![Graf10](https://user-images.githubusercontent.com/99502330/162792995-d5adf611-d7c0-4074-bda1-0ce00d8cb1ce.png)
 
 
 
@@ -101,18 +102,14 @@ There are 39 LOW SCORE accounts with 6 credit cards: 5 'classic' and 1 'junior'.
 
 2. Offer credic card to GOOD clients. There is a another big opportunity since less then 13.24 % of theses clients have credit card. It means that there are 1,442 good accounts without credit card. Analyse if it is possible offer an upgrade for gold credit card for some of them.
 
-3. Identify potencial regular clients to offer credit card. There are 1,968 regular accounts (85.28%) without credit cards. 
+3. Identify potencial regular clients to offer credit card. There are 1,968 regular accounts (85.38%) without credit cards. 
 
 4. There are 32 gold credit card related to regular clients. Check if it is necessary a downgrade for 'junior' or 'classic' credit card.
 
-
-<h1 align="left"> Others questions </h1>
-
-What percentage of accounts have more than one client accessing the account? The disposition table, type column.
-How much of the cards’ information is available in this database, and what are the different kinds of cards offered by the bank?
-
-Where are most of the customers located (district)?
-
+5. Most of the customers are located in Hl.m.Praha. There is an opportunity to focus effort and monitor customer satisfaction. 
 1st. Hl.m. Praha	- 663 accounts
 2nd. Ostrava - mesto	- 180 accounts
 3rd. Karvina	- 169 accounts
+
+
+
