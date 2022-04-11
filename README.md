@@ -78,6 +78,9 @@ I split accounts based on different amount ranges: LOW_SCORE (negative balance),
 <h1 align="left"> 2. Identify the good clients to whom we can offer other services </h1>
 
 
+![Image2](https://user-images.githubusercontent.com/99502330/162798651-2505aecc-8587-4528-b345-196a7ec672ae.jpg)
+
+
 The bank has 892 credit cards: 659 (classic), 145 (junior) and 88 (gold).
 
 
@@ -110,6 +113,9 @@ There are 39 LOW SCORE accounts with 6 credit cards: 5 'classic' and 1 'junior'.
 1st. Hl.m. Praha	- 663 accounts
 2nd. Ostrava - mesto	- 180 accounts
 3rd. Karvina	- 169 accounts
+
+![Image12](https://user-images.githubusercontent.com/99502330/162797372-0ada4171-a885-47c6-81af-50313ed7697f.jpg)
+
 
 
 
