@@ -1,101 +1,121 @@
 # Repository-GIT---Ironhack
 Repository GIT 
-<h1 align="center"> SHARK ATTACK </h1>
-<h1 align="center"> Data Cleaning and Manipulation </h1>
+<h1 align="center"> FINANCIAL DATA SET </h1>
+
+![Image1](https://user-images.githubusercontent.com/99502330/162427935-e6ee1c11-9598-4468-a260-2f4fe35b32c6.jpg)
+
+
+<h1 align="left"> Objectives </h1>
+
+The bank stores information about the clients, including accounts held, transactions over the last few months, loans granted, cards issued, etc. 
+The bank managers hope to improve their understanding of customers and seek specific actions to improve services.
+
+
+![Image8](https://user-images.githubusercontent.com/99502330/162427411-4151cfd3-bb82-499d-8ab9-f4781704c8c3.jpg)
+
+<h1 align="left"> Dataset </h1>
+
+The data provided is real anonymized Czech bank transactions, account info, and loan records released for the PKDD'99 Discovery Challenge.
+
+
+<h1 align="left"> Scenario </h1>
+
+The bank offers services to the private sector. The services include managing accounts, offering loans, etc.
+
+
+Warning: There is no information about clients' incomes, investments and assets. 
+
+
+<h1 align="left"> Tasks </h1>
+
+
+<h1 align="left"> 1. Identify the bad clients, watching them carefully in order to minimize the losses </h1>
+
+
+![Image7](https://user-images.githubusercontent.com/99502330/162592623-00aee595-7327-4ebe-95cc-06fbc13c6d6d.jpg)
+
+First of all, I have checked accounts with non payed loan. 
+
+It is good when the bank has clients paying tax for using services but it is a bad signal when clients can not afford paying them.
+
+There are 31 loans that were not payed: € 4,362,348. It is 19% of € 22,965,564 (total loan with expired contracts).
+
+![Graf5](https://user-images.githubusercontent.com/99502330/162592539-93636263-985f-4f01-9851-9e680e9c9f9d.png)
+
+
+These loans are related to 31 distinct accounts (0,69% of 4,500 accounts) and reffers to 31 distinct clients (0,58% of 5,369 clients).
+
+As of now, there are € 11,217,804 loans with clients in debt. It is 13.97% of € 80,296,176 (total valid loan).
+
+Fortunately there is no golden credit card for theses accounts (credit card service tax is higher than loan). There are only 2 credit cards associate to these bad accounts: 1 classic and 1 junior.
+
+![Graf8](https://user-images.githubusercontent.com/99502330/162595684-34a2297a-8204-4cc3-9e91-03db6425483f.png)
+
+
+
+The average district salary could be considered as a reference to determine the loan payments. A conservative approach it would be considering maximum of 50% of the average district salary to define the loan payment. There are 18 loans that were not payed which the payment amount it is over 50% of the average district salary. 
+
+Transaction database stores balance after transaction. I used this information to discover account balance (max(date) by account).
+
+I split accounts based on different amount ranges: LOW_SCORE (negative balance), REGULAR (up to € 40.000), GOOD (up to € 80,000) and VIP (above € 80,000).
+
+
+
+![Graf9](https://user-images.githubusercontent.com/99502330/162641892-71c81e97-26e1-462d-907c-7f55938e641d.png)
+
+<h2 align="left"> Actions to minimize the losses </h2>
+
+
+![Image9](https://user-images.githubusercontent.com/99502330/162592673-efcc9feb-6a56-4a7f-ac21-4eab35bce3b2.jpg)
+
+1. Don't offer golden credic card to bad clients. Find out safe limit for ordinary credit card.
+
+2. Define maximum payment to loan based on average district salary.
+
+3. Monitor bad customers and offer services carefully.
+
+
+<h1 align="left"> 2. Identify the good clients to whom we can offer other services </h1>
+
+
+![Image2](https://user-images.githubusercontent.com/99502330/162798651-2505aecc-8587-4528-b345-196a7ec672ae.jpg)
+
+
+The bank has 892 credit cards: 659 (classic), 145 (junior) and 88 (gold).
+
+
+![Graf7](https://user-images.githubusercontent.com/99502330/162594186-8a9f6fdb-73ff-4c78-a98c-e5872ab9c835.png)
+
+There are 496 VIP accounts with only 65 credit cards: 7 'gold', 47 'classic' and 11 'junior'.
+
+There are 1,662 GOOD accounts with 220 credit cards: 26 'gold', 167 'classic' and 27 'junior'.
+
+There are 2,305 REGULAR accounts with 337 credit cards: 32 'gold', 253 'classic' and 52 'junior'
+
+There are 39 LOW SCORE accounts with 6 credit cards: 5 'classic' and 1 'junior'.
+
+![Graf10](https://user-images.githubusercontent.com/99502330/162792995-d5adf611-d7c0-4074-bda1-0ce00d8cb1ce.png)
 
 
 
 
-![ec108e76abc8ba235183e1043243f8c7](https://user-images.githubusercontent.com/99502330/161838073-aa87e39a-1afc-4459-9d06-b6a556085659.jpg)
+<h2 align="left"> Actions to maximize profit </h2>
+
+1. Offer golden credic card to VIP clients. There is a big opportunity since less then 13.10 % of theses clients have credit card. And 89.23% of these cards are 'junior' or 'classic', so the bank could offer an upgrade for gold credit card.
+
+2. Offer credic card to GOOD clients. There is a another big opportunity since less then 13.24 % of theses clients have credit card. It means that there are 1,442 good accounts without credit card. Analyse if it is possible offer an upgrade for gold credit card for some of them.
+
+3. Identify potencial regular clients to offer credit card. There are 1,968 regular accounts (85.38%) without credit cards. 
+
+4. There are 32 gold credit card related to regular clients. Check if it is necessary a downgrade for 'junior' or 'classic' credit card.
+
+5. Most of the customers are located in Hl.m.Praha. There is an opportunity to focus effort and monitor customer satisfaction. 
+1st. Hl.m. Praha	- 663 accounts
+2nd. Ostrava - mesto	- 180 accounts
+3rd. Karvina	- 169 accounts
+
+![Image12](https://user-images.githubusercontent.com/99502330/162797372-0ada4171-a885-47c6-81af-50313ed7697f.jpg)
 
 
-<h1 align="left"> Main Objectives </h1>
-
-Apply the different cleaning and manipulation techniques to generate a cleaner CSV version of this data.
-Look for something you want to answer about shark attacks and try to answer that using data.
-
-![Humans are friends!](https://user-images.githubusercontent.com/99502330/161834340-92521684-877f-495d-8df9-ec22bfacb2fc.jpg)
-
-<h1 align="left"> The Datasets </h1>
-
-The mission of the Global Shark Attack File is to provide current and historical data on shark/human interactions for those who seek accurate and meaningful information and verifiable references.
-Dataset available at: https://www.kaggle.com/datasets/teajay/global-shark-attacks.
-
-
-<h1 align="left"> Import File </h1>
-
-The dataset has 25.723 lines and 24 columns.
-
-<h1 align="left"> Heatmap before dropping duplicate values </h1>
-
-![Heatmap_before](https://user-images.githubusercontent.com/99502330/161841837-245a2a81-1254-468b-85cd-5caeb78c776a.png)
-
-<h1 align="left"> Heatmap after dropping duplicate values </h1>
-
-![Heatmap_after](https://user-images.githubusercontent.com/99502330/161843475-aaa14977-13fe-4672-b22b-6c18c98d915e.png)
-
-
-Cleanned Dataset has 6.302 lines and 23 columns.
-
-<h1 align="left"> 1. Are there more fatal attacks? </h1>
-
-This answer needs a clean column called: Fatal (Y/N).
-First of all, I used 'groupby' to discovery the number of lines per value. It is returned: 2017, N, M, Y, y, UNKOWN.
-I read the lines with values different from Y or N and changed the wrong values to Y, N or X (when it was impossible to discovery).
-
-CONCLUSION: There are more no fatal attacks
-
-Total Shark Attacks with Known Results: 5692 attacks
-
-Fatal Shark Attacks: 1389 attacks / 24.4 %
-
-No Fatal Shark Attacks: 4303 attacks / 75.6 %
-
-*** Attacks with Unknown Results: 71 attacks / 1.23 % (not inside the previous analise)
-
-![shaaark183](https://user-images.githubusercontent.com/99502330/161834643-751fe82d-f9d7-4b89-8836-52da63639d59.jpg)
-
-
-
-
-<h1 align="left"> 2. Are more attacks for male or female? </h1>
-
-This answer needs a clean column called: Sex.
-First of all, I used 'groupby' to discovery the number of lines per value. It is returned: . , F, M, N, lli.
-I read the lines with values different from M or F and changed the wrong values to M, F or X (when it was impossible to discovery).
-
-CONCLUSION: There are more attacks for male victim
-
-
-Total Shark Attacks with Known Gender: 5735
-
-Male Shark Attacks: 5098 attacks / 88.89 %
-
-Female Shark Attacks: 637 attacks / 11.11 %
-
-*** Attacks with Unknown Results: 71 attacks / 1.23 % (not inside the previous analise)
-
-
-
-![85d610852c2301f889912430ee9a947b](https://user-images.githubusercontent.com/99502330/161853751-2c5b4a7f-550a-43cc-a915-91474f60ead7.jpg)
-
-
-<h2 align="left"> OTHERS CONCLUSIONS </h2>
-
-Crossing valid lines for fatal attacks (5.692) and attacks for gender (5.735) I extract a double groupby:
-
-
-![Graf2](https://user-images.githubusercontent.com/99502330/161857530-2012bd4d-8827-4c76-8333-6f1d98d11764.png)
-
-<h1 align="left"> 3. Are shark attacks influenced by hemisphere? </h1>
-
-This answer needs a clean column from main database called: Country.
-However, this column does not give the information necessary to answer the question: if the country is at the Northern Hemisphere or Southern Hemisphere. I used a database of coordinates (latitude/longitude) for countries to find out this information. Dataset available at: https://www.kaggle.com/datasets/max-mind/world-cities-database.
-I used 'unique' to discovery the values into main database (150 countries) and compare with the database of coordinates.
-Countries after cleanning database: 
-
-I read the lines with values different from M or F and changed the wrong values to M, F or X (when it was impossible to discovery).
-
-CONCLUSION: There are more attacks for male victim
 
 
