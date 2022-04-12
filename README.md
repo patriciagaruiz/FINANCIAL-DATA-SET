@@ -107,11 +107,14 @@ There are 39 LOW SCORE accounts with 6 credit cards: 5 'classic' and 1 'junior'.
 
 3. Identify potencial regular clients to offer credit card. There are 1,968 regular accounts (85.38%) without credit cards. 
 
-4. There are 32 gold credit card related to regular clients. Check if it is necessary a downgrade for 'junior' or 'classic' credit card.
+4. There are 32 gold credit card within regular clients. Check if a downgrade would make sense.
 
-5. Most of the customers are located in Hl.m.Praha. There is an opportunity to focus effort and monitor customer satisfaction. 
+5. Most of the customers are located in Hl.m.Praha. There is an opportunity to understand this customer base and figure out which additional services could be offered to them. 
+
 1st. Hl.m. Praha	- 663 accounts
+
 2nd. Ostrava - mesto	- 180 accounts
+
 3rd. Karvina	- 169 accounts
 
 ![Image12](https://user-images.githubusercontent.com/99502330/162797372-0ada4171-a885-47c6-81af-50313ed7697f.jpg)
